@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-configmap
+data:
+  MYSQL_DATABASE: "biblioteca"
+  MYSQL_USER: "appuser"
+  #SPRING_DATABASE_URL: "jdbc:mysql://mysql:3306/biblioteca"
+  SPRING_DATASOURCE_USERNAME: "appuser"
